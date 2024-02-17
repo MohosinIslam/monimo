@@ -1,0 +1,135 @@
+*{
+    margin: 0;
+    padding: 0;
+    /* padding: 30px 0; */
+}
+/*font-family: playfair Display;serif;
+font-family:ubuntu Sans-serif;*/
+header{
+    display: flex;
+    justify-content: space-between;
+    width: 90%;
+    margin-left: 5%;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+.logo {
+width: 20%;
+}
+nav{
+width: 50%;
+}
+header nav ul{
+    display: flex;
+    list-style: none;
+    justify-content:end ;
+}
+header nav ul li{
+margin-left: 50px;
+}
+header nav ul li a{
+    text-decoration: none;
+    color: #626262;
+    text-transform: uppercase;
+}
+.banner_section{
+    width: 90%;
+    margin-left: 5%;
+    }
+.banner_section img{
+        width: 100%;
+    }
+.photodairy{
+width: 80%;
+margin: auto;
+margin-top: 70px;
+margin-bottom: 70px;
+color: #626262;
+}
+.photodairy h1{
+color:#626262;
+font-weight: 400;
+font-size: 30px;
+text-transform:capitalize;
+margin-bottom: 15px;
+
+}
+photodairy h5{
+    color: #b4ad9e;
+    text-transform: uppercase;
+    font-weight: 400;
+    font-size: 14px;
+    margin-bottom: 15px;
+}
+.photodairy p{
+    color: #626262;
+    margin-bottom: 15px;
+    font-size: 14px;
+
+}
+.photodairy h6{
+    color: #b4ad9e;
+    text-transform: uppercase;
+    font-weight: 400;
+    font-size: 14px;
+    margin-bottom: 15px;
+
+}
+.feature_section{
+width: 80%;
+margin: auto;
+display: flex;
+justify-content: space-between;
+flex-wrap: wrap ;
+}
+.feature_item{
+width: 48%;
+margin-bottom: 70px ;
+}
+.future_item img{
+width: 100%;
+margin-bottom: 15px;
+}
+.future_item h1{
+    color:#626262;
+    font-weight: 400;
+    font-size: 30px;
+    text-transform:capitalize;
+    margin-bottom: 15px;
+}
+.future_item h5{
+    color: #b4ad9e;
+    text-transform: uppercase;
+    font-weight: 400;
+    font-size: 14px;
+    margin-bottom: 15px;
+}
+.future_item p{
+    color: #626262;
+    margin-bottom: 15px;
+    font-size: 14px;
+}
+.newsleter{
+background: #f0f0f0;
+padding: 70px 0;
+}
+.content{
+width: 27%;
+margin: auto;
+}
+.content h2{
+    color:#626262;
+    font-weight: 400;
+    font-size: 30px;
+    text-transform:capitalize;
+    margin-bottom: 50px;
+}
+.content input{
+border: none;
+border-bottom: 1px solid #000;
+width: 100%;
+background: transparent;
+}
+.content input:focus{
+    outline: none;
+}
